@@ -1,10 +1,10 @@
 #header {
-    border-bottom: 1px solid #F2F4F6;
-    background-color: #F2F4F6;
+    border-bottom: 1px solid #F2F4F6 !important;
+    background-color: #F2F4F6 !important;
 }
 
 .tables-tabs-container {
-    background-color: #F2F4F6;
+    background-color: #F2F4F6 !important;
 }
 
 .tables-tabs-operations .tables-logs .tables-logs-icon, .tables-tabs-operations .tables-plugins .tables-plugins-icon, .tables-tabs-operations .tables-share .tables-share-icon {
@@ -554,4 +554,27 @@ a.plugin-toolbar-item {
 
 .tables-tabs-content .scroll-active:hover {
     background-color: #646dea;
+}
+
+.tables-tabs-operations .tables-logs .tables-logs-icon, .tables-tabs-operations .tables-plugins .tables-plugins-icon, .tables-tabs-operations .tables-rule .tables-rule-icon, .tables-tabs-operations .tables-share .tables-share-icon, .tables-tabs-operations .tool-dropdown .dtable-icon-more-level {
+  color: #000;
+}
+
+.dropdown-item:focus {
+  color: #000;
+  background-color: #f2f4f6;
+  outline: none;
+}
+
+.table-icon-content {
+  background-color: transparent !important;
+}
+
+.dtable-icon-color-white {
+  color: #4954E6 !important;
+}
+
+.workspace .dropdown-item:focus .dtable-font, .workspace .dropdown-item:hover .dtable-font {
+  color: #4954E6 !important;
+  background-color: transparent !important;
 }
