@@ -1,6 +1,7 @@
 #header {
     border-bottom: 1px solid #F2F4F6 !important;
     background-color: #F2F4F6 !important;
+    border: none !important;
 }
 
 .tables-tabs-container {
@@ -566,15 +567,28 @@ a.plugin-toolbar-item {
   outline: none;
 }
 
-.table-icon-content {
-  background-color: transparent !important;
-}
-
-.dtable-icon-color-white {
-  color: #4954E6 !important;
-}
-
 .workspace .dropdown-item:focus .dtable-font, .workspace .dropdown-item:hover .dtable-font {
   color: #4954E6 !important;
   background-color: transparent !important;
+}
+
+.table-item-more-operation .advanced-menu.show > .btn-secondary.dropdown-toggle {
+  color: #000;
+  background-color: #f2f4f6;
+}
+
+.table-item-more-operation .advanced-menu.show > .btn-secondary.dropdown-toggle::after {
+  color: #4954E6;
+}
+
+.tool-popover .tool-item:hover, .tool-popover .tool-item:hover dd, .tool-popover .tool-item:hover dt, .tool-popover .tool-item:hover span {
+  background-color: #4954E6;
+}
+
+.css-1j2r05n-option {
+  background-color: #4954E6;
+}
+
+.tables-tabs-container .dtable-dropdown-menu .dropdown-item:hover .dtable-icon-right-slide {
+  color: #4954E6;
 }
