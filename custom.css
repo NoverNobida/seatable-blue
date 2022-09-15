@@ -592,3 +592,21 @@ a.plugin-toolbar-item {
 .tables-tabs-container .dtable-dropdown-menu .dropdown-item:hover .dtable-icon-right-slide {
   color: #4954E6;
 }
+
+.template-categories .template-category-item:hover {
+  color: #4954e6;
+}
+
+.template-list-container .template-container:hover {
+  border-color: #4954e6;
+  background: #f8fafc;
+}
+
+.template-list-dialog .modal-header .modal-header-template {
+  color: #4954e6;
+}
+
+.org-admin .main-panel .nav .nav-item .nav-link.active, .sys-admin .main-panel .nav .nav-item .nav-link.active {
+  color: #4954e6;
+  border-bottom: 2px solid #4954e6;
+}
