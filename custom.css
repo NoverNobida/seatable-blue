@@ -610,3 +610,8 @@ a.plugin-toolbar-item {
   color: #4954e6;
   border-bottom: 2px solid #4954e6;
 }
+
+.dtable-image-addition-container .dtable-image-addition-left .selected-dtable-addition-item {
+  background-color: #4954e6;
+  color: #fff;
+}
