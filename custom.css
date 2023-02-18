@@ -586,7 +586,7 @@ a.plugin-toolbar-item {
 }
 
 .css-1j2r05n-option {
-  background-color: #4954E6;
+  background-color: #4954E6 !important;
 }
 
 .tables-tabs-container .dtable-dropdown-menu .dropdown-item:hover .dtable-icon-right-slide {
