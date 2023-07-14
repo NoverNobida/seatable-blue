@@ -29,7 +29,7 @@
 }
 
 .text-truncate {
-    color: #fff;
+    color: #4954e6;
 }
 
 .tables-tabs-content .dtable-icon-add-square {
@@ -625,4 +625,8 @@ a.plugin-toolbar-item {
 .path-link {
   color: #4954e6 !important;
   text-decoration: none;
+}
+
+.text-truncate.w-100 {
+  color: #fff;
 }
