@@ -29,7 +29,7 @@
 }
 
 .text-truncate {
-    color: #4954E6;
+    color: #fff;
 }
 
 .tables-tabs-content .dtable-icon-add-square {
@@ -614,4 +614,15 @@ a.plugin-toolbar-item {
 .dtable-image-addition-container .dtable-image-addition-left .selected-dtable-addition-item {
   background-color: #4954e6;
   color: #fff;
+}
+
+.folder-tree .folder-item.folder-item-selected {
+  color: #fff;
+  border-radius: 4px;
+  background-color: #4954e6 !important;
+}
+
+.path-link {
+  color: #4954e6 !important;
+  text-decoration: none;
 }
