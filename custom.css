@@ -630,3 +630,18 @@ a.plugin-toolbar-item {
 .text-truncate.w-100 {
   color: #fff;
 }
+
+.dtable-container-fluid {
+  padding-top: 145px;
+}
+
+.mt-6, .my-6 {
+  margin-top: 4rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.login-panel {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #ddd;
+}
