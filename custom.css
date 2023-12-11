@@ -645,3 +645,11 @@ a.plugin-toolbar-item {
   border-radius: 15px;
   box-shadow: 0 0 15px #ddd;
 }
+
+.cell-highlight {
+  background-color: hsla(236,76%,59%,.5) !important;
+}
+
+.cell-current-highlight {
+  background-color: #4954e6 !important;
+}
